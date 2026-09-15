@@ -38,7 +38,7 @@ const SERVICES: Service[] = [
 export function Services() {
   return (
     <section id="services" className="scroll-mt-16">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold text-primary">Services</span>
           <h2 className="mt-2 text-pretty text-3xl font-bold tracking-tight text-ink-strong sm:text-4xl">
@@ -50,12 +50,12 @@ export function Services() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2">
           {SERVICES.map(({ index, icon: Icon, title, body }) => (
             <a
               key={index}
               href="#get-started"
-              className="group flex h-full flex-col rounded-[10px] border border-border bg-surface p-6 transition-colors hover:border-primary/50"
+              className="group flex h-full flex-col rounded-[10px] border border-border bg-surface p-4 transition-colors hover:border-primary/50"
             >
               <div className="flex items-center justify-between">
                 <span className="grid size-11 place-items-center rounded-[8px] bg-primary-soft text-primary">
@@ -65,11 +65,11 @@ export function Services() {
                   {index}
                 </span>
               </div>
-              <h3 className="mt-5 text-lg font-semibold text-ink">{title}</h3>
-              <p className="mt-1.5 flex-1 text-sm leading-relaxed text-muted">
+              <h3 className="mt-4 text-lg font-semibold text-ink">{title}</h3>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-muted">
                 {body}
               </p>
-              <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
+              <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
                 Open service
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
               </span>

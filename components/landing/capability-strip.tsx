@@ -1,4 +1,4 @@
-import { Globe2, Wallet, ShieldQuestion } from "lucide-react"
+import { Globe2, Wallet, Boxes } from "lucide-react"
 
 const ITEMS = [
   {
@@ -12,9 +12,9 @@ const ITEMS = [
     body: "Fund once and spend across virtual numbers, rentals, SMM and accounts. No per-service checkout.",
   },
   {
-    icon: ShieldQuestion,
-    title: "VoIP / non-VoIP labelled",
-    body: "Every number product states its type up front, so you know what a platform will accept.",
+    icon: Boxes,
+    title: "One toolkit",
+    body: "Virtual numbers, rentals, social growth and verified accounts — every essential in a single place.",
   },
 ]
 
@@ -32,10 +32,10 @@ const PLATFORMS = [
 export function CapabilityStrip() {
   return (
     <section className="border-y border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:py-16">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="grid gap-px overflow-hidden rounded-[12px] border border-border bg-border sm:grid-cols-3">
           {ITEMS.map(({ icon: Icon, title, body }) => (
-            <div key={title} className="bg-surface p-6">
+            <div key={title} className="bg-surface p-4">
               <span className="grid size-10 place-items-center rounded-[8px] bg-primary-soft text-primary">
                 <Icon className="size-5" />
               </span>

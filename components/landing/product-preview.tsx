@@ -12,7 +12,7 @@ export function ProductPreview() {
     <div className="rounded-[12px] border border-border bg-surface p-3 shadow-[0_1px_2px_rgba(15,23,42,0.04)]">
       {/* Wallet card */}
       <div
-        className="rounded-[10px] p-5 text-white"
+        className="rounded-[10px] p-4 text-white"
         style={{
           backgroundImage:
             "linear-gradient(135deg, var(--color-wallet-1), var(--color-wallet-2) 55%, var(--color-wallet-3))",
@@ -28,7 +28,7 @@ export function ProductPreview() {
           </span>
         </div>
 
-        <div className="mt-6">
+        <div className="mt-4">
           <span className="text-xs text-white/60">Wallet balance</span>
           <div className="mt-1 flex items-baseline gap-1.5">
             <span className="text-3xl font-bold tracking-tight">0.00</span>
@@ -36,7 +36,7 @@ export function ProductPreview() {
           </div>
         </div>
 
-        <div className="mt-5 flex items-center gap-2">
+        <div className="mt-4 flex items-center gap-2">
           <span className="inline-flex items-center gap-1.5 rounded-[8px] bg-white px-3 py-1.5 text-xs font-semibold text-ink-strong">
             <Plus className="size-3.5" />
             Fund wallet
@@ -52,7 +52,7 @@ export function ProductPreview() {
         {TILES.map(({ icon: Icon, label, note }) => (
           <div
             key={label}
-            className="rounded-[10px] border border-border bg-background p-3.5"
+            className="rounded-[10px] border border-border bg-background p-4"
           >
             <span className="grid size-9 place-items-center rounded-[8px] bg-primary-soft text-primary">
               <Icon className="size-[18px]" />

@@ -19,7 +19,7 @@ const STEPS = [
 export function HowItWorks() {
   return (
     <section className="scroll-mt-16">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold text-primary">How it works</span>
           <h2 className="mt-2 text-pretty text-3xl font-bold tracking-tight text-ink-strong sm:text-4xl">
@@ -27,11 +27,11 @@ export function HowItWorks() {
           </h2>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-3">
+        <div className="mt-6 grid gap-3 sm:grid-cols-3">
           {STEPS.map(({ step, title, body }) => (
             <div
               key={step}
-              className="rounded-[10px] border border-border bg-surface p-6"
+              className="rounded-[10px] border border-border bg-surface p-4"
             >
               <span className="grid size-9 place-items-center rounded-[8px] bg-primary text-sm font-bold text-white">
                 {step}

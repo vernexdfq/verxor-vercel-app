@@ -16,7 +16,7 @@ const COUNTRIES = [
 export function Coverage() {
   return (
     <section id="coverage" className="scroll-mt-16 border-y border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:py-16">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold text-primary">Coverage</span>
           <h2 className="mt-2 text-pretty text-3xl font-bold tracking-tight text-ink-strong sm:text-4xl">
@@ -28,7 +28,7 @@ export function Coverage() {
           </p>
         </div>
 
-        <ul className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {COUNTRIES.map(({ flag, name }) => (
             <li
               key={name}
