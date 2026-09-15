@@ -23,6 +23,7 @@ Verxor is a **panel product**. Landing can breathe a little. The **app must stay
 | `card-pad` | 16px | 16–20px | Inside cards |
 | `card-gap` | 12px | 12–16px | 2×2 service grids |
 | `cta-gap` | 8px | 8px | Primary + secondary CTA |
+| `cta-height` | 44–48px | 44–48px | Buttons |
 | `radius` | 8–10px | 8–10px | Max 12px |
 
 ### APP (Home, Numbers, Fund, Profile, service pages)
@@ -35,7 +36,8 @@ Verxor is a **panel product**. Landing can breathe a little. The **app must stay
 | `stack-y` | **8–12px** | 8–12px | List rows, transaction cards |
 | `card-pad` | **14–16px** | 16px | Inside cards |
 | `card-gap` | **10–12px** | 12px | Quick-action / tile grids |
-| `cta-gap` | 8px | 8px | Side-by-side buttons |
+| `cta-gap` | 8px | 8px | Side-by-side or stacked buttons |
+| `cta-height` | 44–48px | 44–48px | Buttons |
 | `radius` | 8–10px | 8–10px | Max 12px |
 
 **Never use 40–48px section gaps inside the app.** That creates soft AI air and fails review.
@@ -45,7 +47,7 @@ Verxor is a **panel product**. Landing can breathe a little. The **app must stay
 1. All cards in a column share the **same content width** (screen − 2×`page-x`).
 2. Grids: equal cells, same `card-gap`, same inner `card-pad`.
 3. Section label → H2 → subcopy: fixed stack (8 / 12 / 16), not random.
-4. Primary + secondary CTAs: same width when stacked full-width; height ~44–48px; gap `cta-gap`.
+4. Primary + secondary CTAs: same width when stacked full-width; height `cta-height`; gap `cta-gap`.
 5. Feature / list rows: fixed icon box (e.g. 40×40), text on one baseline.
 6. Left edges of cards/text in a section align on **one vertical line**.
 7. No random empty air to “fill the fold.” Dense and commercial.
@@ -58,3 +60,10 @@ Verxor is a **panel product**. Landing can breathe a little. The **app must stay
 - Hero/app CTAs different widths without reason
 - Sections starting at random horizontal offsets
 - “Almost aligned” layouts
+
+## Prompt rule
+
+Every builder prompt must include these rules.
+
+- **Landing work** → use **LANDING** tokens only.
+- **Dashboard / in-app work** (Home, Numbers, Fund, Profile, services) → use **APP** tokens only. Never copy landing `section-y` into the app.
