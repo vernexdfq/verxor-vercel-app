@@ -1,4 +1,4 @@
-import { Globe2, Wallet, Boxes } from "lucide-react"
+import { Globe2, Wallet, PackageCheck } from "lucide-react"
 
 const ITEMS = [
   {
@@ -12,9 +12,9 @@ const ITEMS = [
     body: "Fund once and spend across virtual numbers, rentals, SMM and accounts. No per-service checkout.",
   },
   {
-    icon: Boxes,
-    title: "One toolkit",
-    body: "Virtual numbers, rentals, social growth and verified accounts — every essential in a single place.",
+    icon: PackageCheck,
+    title: "Live availability",
+    body: "Inventory is confirmed inside your account before you order.",
   },
 ]
 

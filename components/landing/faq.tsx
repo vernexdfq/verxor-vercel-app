@@ -8,10 +8,6 @@ const FAQS = [
     a: "One-time numbers that fail to receive a code are handled per our refund policy — you are not charged for a code that never lands. Terms are shown at checkout.",
   },
   {
-    q: "How fast do numbers arrive?",
-    a: "Virtual numbers are issued instantly and OTP codes usually land within seconds. Line rentals activate as soon as your order is confirmed.",
-  },
-  {
     q: "How does funding work?",
     a: "You fund your wallet once, then spend that balance across virtual numbers, rentals, SMM and accounts. No separate checkout for each purchase.",
   },
