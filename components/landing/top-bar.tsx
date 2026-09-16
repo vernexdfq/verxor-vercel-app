@@ -38,7 +38,7 @@ export function TopBar() {
 
         <div className="flex items-center gap-2">
           <a
-            href="#get-started"
+            href="/home"
             className="hidden rounded-[8px] bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover sm:inline-flex"
           >
             Get started
@@ -72,7 +72,7 @@ export function TopBar() {
               </a>
             ))}
             <a
-              href="#get-started"
+              href="/home"
               onClick={() => setOpen(false)}
               className="mt-3 mb-2 rounded-[8px] bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white"
             >

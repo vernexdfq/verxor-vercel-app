@@ -20,7 +20,7 @@ export function FinalCta() {
           </p>
           <div className="mt-6 flex justify-center">
             <a
-              href="#get-started"
+              href="/home"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-[8px] bg-white px-6 text-sm font-semibold text-ink-strong transition-colors hover:bg-white/90"
             >
               Get started

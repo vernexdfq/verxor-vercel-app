@@ -29,7 +29,7 @@ export function Hero() {
 
           <div id="get-started" className="mt-6 flex flex-col gap-2 sm:flex-row">
             <a
-              href="#services"
+              href="/home"
               className="inline-flex h-12 items-center justify-center gap-2 rounded-[8px] bg-primary px-5 text-sm font-semibold text-white transition-colors hover:bg-primary-hover sm:flex-1"
             >
               Get a number now
